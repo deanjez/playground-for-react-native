@@ -6,7 +6,7 @@ This is Appwrite React Native integration. For React integration please look at 
 
 ## Get Started
 
-The `App.js` file in this repository contains **all** the playground examples and source code.
+The `app/(tabs)/index.tsx` file in this repository contains **all** the playground examples and source code.
 
 You can learn how to to integrate your Appwrite React Native SDK in your project and see how different features of the SDK can be used.
 
@@ -14,34 +14,32 @@ This playground doesn't include any Appwrite best practices but rather intended 
 
 ### Installation
 
-`NOTE: Commands are to be executed on Linux, Mac, and Windows(using Powershell)`
-
-1. Fork this repository by clicking on the <a href="https://github.com/appwrite/playground-for-react-native/fork"><kbd><b>Fork</b></kbd></a> button.
-2. Clone the repo by running the command
-```sh
-$ git clone https://github.com/Your_Username/playground-for-react-native.git
-```
-3. Go inside the folder by command
-```sh
-$ cd playground-for-react-native
-```
-4. Run the command to install node modules
-```sh
-$ npm install
-```
-5. Start a web server by running using command
-```sh
-$ npm start
-```
-1. Access the app using Expo Go app.
-
-> Don't forget to update Appwrite endpoint and project ID
+1. Clone the repo
+   ```sh
+   git clone https://github.com/appwrite/playground-for-react-native.git
+   ```
+1. Go inside the folder
+   ```sh
+   cd playground-for-react-native
+   ```
+1. Install dependencies
+   ```sh
+   npm install
+   ```
+1. Add `io.appwrite.playground-for-react-native` as a React Native platform to your project
+1. Create `.env.local` using `.env` as a template
+1. Update the `scheme` in the `app.json`
+1. Start the app
+   ```sh
+   npm start
+   ```
+1. Access the app using Expo Go app
 
 ## Contributing
 
 All code contributions - including those of people having commit access - must go through a pull request and approved by a core developer before being merged. This is to ensure proper review of all the code.
 
-We truly ❤️ pull requests! If you wish to help, you can learn more about how you can contribute to this project in the [contribution guide](https://github.com/appwrite/appwrite/blob/master/CONTRIBUTING.md).
+We truly ❤️ pull requests! If you wish to help, you can learn more about how you can contribute to this project in the [contribution guide](https://github.com/appwrite/.github/blob/main/CONTRIBUTING.md).
 
 ## Security
 
@@ -49,4 +47,4 @@ For security issues, kindly email us [security@appwrite.io](mailto:security@appw
 
 ## Follow Us
 
-Join our growing community around the world! Follow us on [Twitter](https://twitter.com/appwrite), [Facebook Page](https://www.facebook.com/appwrite.io), [Facebook Group](https://www.facebook.com/groups/appwrite.developers/) or join our [Discord Server](https://appwrite.io/discord) for more help, ideas and discussions.
+Join our growing community around the world! Follow us on [X](https://x.com/appwrite), [Facebook Page](https://www.facebook.com/appwrite.io), [Facebook Group](https://www.facebook.com/groups/appwrite.developers/) or join our [Discord Server](https://appwrite.io/discord) for more help, ideas and discussions.
